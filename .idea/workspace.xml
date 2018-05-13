@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32247d33-6a39-4c2a-a6d4-57250fb31fd8" name="Default" comment="" />
+    <list default="true" id="32247d33-6a39-4c2a-a6d4-57250fb31fd8" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Application.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,18 +26,87 @@
       <file leaf-file-name="JsonAnyGetterCaseTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/JsonAnyGetterCaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="189">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name="JsonGetterCase.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JsonGetterCase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#179#180#0" expanded="true" />
+                <element signature="e#204#205#0" expanded="true" />
+                <element signature="e#238#239#0" expanded="true" />
+                <element signature="e#266#267#0" expanded="true" />
+                <element signature="e#306#307#0" expanded="true" />
+                <element signature="e#338#339#0" expanded="true" />
+                <element signature="e#134#135#0" expanded="true" />
+                <element signature="e#160#161#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JsonGetter.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.6.6/jackson-annotations-2.6.6.jar!/com/fasterxml/jackson/annotation/JsonGetter.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JsonGetterCaseTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/JsonGetterCaseTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
+      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JsonAnyGetterCase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JsonAnyGetterCase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,6 +115,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/Application.java" />
+        <option value="$PROJECT_DIR$/src/test/java/JsonGetterCaseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JsonGetterCase.java" />
       </list>
     </option>
   </component>
@@ -123,7 +197,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.JsonGetterCaseTest.testJsonGetter">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -134,6 +208,23 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="JsonAnyGetterCaseTest" />
       <option name="METHOD_NAME" value="testJsonAnyGetter" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="JsonGetterCaseTest.testJsonGetter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jackson.json.scaffold" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JsonGetterCaseTest" />
+      <option name="METHOD_NAME" value="testJsonGetter" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -182,8 +273,13 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="JUnit.JsonAnyGetterCaseTest.testJsonAnyGetter" />
+      <item itemvalue="JUnit.JsonGetterCaseTest.testJsonGetter" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JsonGetterCaseTest.testJsonGetter" />
         <item itemvalue="JUnit.JsonAnyGetterCaseTest.testJsonAnyGetter" />
       </list>
     </recent_temporary>
@@ -205,6 +301,21 @@
     <history-entry file="JsonAnyGetterCaseTest_testJsonAnyGetter - 2018.05.13 at 15h 22m 38s.xml">
       <configuration name="JsonAnyGetterCaseTest.testJsonAnyGetter" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="JsonGetterCaseTest_testJsonGetter - 2018.05.13 at 16h 04m 09s.xml">
+      <configuration name="JsonGetterCaseTest.testJsonGetter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JsonGetterCaseTest_testJsonGetter - 2018.05.13 at 16h 05m 35s.xml">
+      <configuration name="JsonGetterCaseTest.testJsonGetter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JsonGetterCaseTest_testJsonGetter - 2018.05.13 at 16h 06m 31s.xml">
+      <configuration name="JsonGetterCaseTest.testJsonGetter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JsonGetterCaseTest_testJsonGetter - 2018.05.13 at 16h 07m 07s.xml">
+      <configuration name="JsonGetterCaseTest.testJsonGetter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JsonGetterCaseTest_testJsonGetter - 2018.05.13 at 16h 08m 01s.xml">
+      <configuration name="JsonGetterCaseTest.testJsonGetter" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -219,11 +330,11 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3014862" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25477707" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.171875" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
@@ -249,15 +360,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/JsonAnyGetterCaseTest.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="84">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/JsonAnyGetterCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3561">
+          <caret line="299" column="27" selection-start-line="299" selection-start-column="27" selection-end-line="299" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/JsonAnyGetterCaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.6.6/jackson-annotations-2.6.6.jar!/com/fasterxml/jackson/annotation/JsonGetter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/JsonGetterCaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JsonGetterCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#134#135#0" expanded="true" />
+            <element signature="e#160#161#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
