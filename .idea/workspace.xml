@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32247d33-6a39-4c2a-a6d4-57250fb31fd8" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JsonGetterCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JsonGetterCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JsonPropertyOrderCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JsonPropertyOrderCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JsonRawValueCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JsonRawValueCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JsonValueCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JsonValueCase.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,8 +22,8 @@
       <file leaf-file-name="JsonPropertyOrderCase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/JsonPropertyOrderCase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+            <state relative-caret-position="189">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -29,8 +34,8 @@
       <file leaf-file-name="JsonPropertyOrderCaseTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/JsonPropertyOrderCaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+            <state relative-caret-position="357">
+              <caret line="17" column="85" lean-forward="true" selection-start-line="17" selection-start-column="85" selection-end-line="17" selection-end-column="85" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,8 +46,8 @@
       <file leaf-file-name="JsonRawValueCase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/JsonRawValueCase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+            <state relative-caret-position="231">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,8 +58,8 @@
       <file leaf-file-name="JsonRawValueCaseTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/JsonRawValueCaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="336">
+              <caret line="16" column="51" lean-forward="true" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,8 +70,8 @@
       <file leaf-file-name="JsonValueCase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/JsonValueCase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="357">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,8 +82,8 @@
       <file leaf-file-name="JsonValueCaseTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/JsonValueCaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="357">
+              <caret line="17" column="77" lean-forward="true" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="77" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,34 +91,36 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="LICENSE" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LICENSE">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="756">
-                <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+              <first_editor relative-caret-position="588">
+                <caret line="235" column="8" selection-start-line="235" selection-start-column="8" selection-end-line="235" selection-end-column="8" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JsonAnyGetterCase.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/JsonAnyGetterCase.java">
+      <file leaf-file-name="JsonGetterCase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JsonGetterCase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JsonAnyGetterCaseTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/JsonAnyGetterCaseTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+            <state relative-caret-position="84">
+              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#179#180#0" expanded="true" />
+                <element signature="e#204#205#0" expanded="true" />
+                <element signature="e#238#239#0" expanded="true" />
+                <element signature="e#266#267#0" expanded="true" />
+                <element signature="e#306#307#0" expanded="true" />
+                <element signature="e#338#339#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -122,8 +129,8 @@
       <file leaf-file-name="JsonGetterCaseTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/JsonGetterCaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            <state relative-caret-position="399">
+              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -149,14 +156,14 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/Application.java" />
         <option value="$PROJECT_DIR$/src/test/java/JsonGetterCaseTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/JsonPropertyOrderCaseTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/JsonValueCaseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JsonAnyGetterCase.java" />
         <option value="$PROJECT_DIR$/src/main/java/JsonGetterCase.java" />
         <option value="$PROJECT_DIR$/src/main/java/JsonPropertyOrderCase.java" />
-        <option value="$PROJECT_DIR$/src/test/java/JsonPropertyOrderCaseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/JsonRawValueCase.java" />
         <option value="$PROJECT_DIR$/src/test/java/JsonRawValueCaseTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/JsonValueCaseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/JsonValueCase.java" />
-        <option value="$PROJECT_DIR$/src/main/java/JsonAnyGetterCase.java" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -238,17 +245,34 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JsonAnyGetterCaseTest.testJsonAnyGetter">
+  <component name="RunManager" selected="JUnit.JsonValueCaseTest.testJsonValue">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="JsonAnyGetterCaseTest.testJsonAnyGetter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JsonGetterCaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jackson.json.scaffold" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="JsonAnyGetterCaseTest" />
-      <option name="METHOD_NAME" value="testJsonAnyGetter" />
+      <option name="MAIN_CLASS_NAME" value="JsonGetterCaseTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="JsonPropertyOrderCaseTest.testJsonPropertyOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jackson.json.scaffold" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JsonPropertyOrderCaseTest" />
+      <option name="METHOD_NAME" value="testJsonPropertyOrder" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -284,23 +308,6 @@
       <option name="MAIN_CLASS_NAME" value="JsonRawValueCaseTest" />
       <option name="METHOD_NAME" value="testJsonRawValue" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="JsonValueCaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jackson.json.scaffold" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="JsonValueCaseTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -366,19 +373,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.JsonRawValueCaseTest.testJsonRawValue" />
+      <item itemvalue="JUnit.JsonGetterCaseTest" />
+      <item itemvalue="JUnit.JsonPropertyOrderCaseTest.testJsonPropertyOrder" />
       <item itemvalue="JUnit.JsonRawValueCaseTest" />
+      <item itemvalue="JUnit.JsonRawValueCaseTest.testJsonRawValue" />
       <item itemvalue="JUnit.JsonValueCaseTest.testJsonValue" />
-      <item itemvalue="JUnit.JsonValueCaseTest" />
-      <item itemvalue="JUnit.JsonAnyGetterCaseTest.testJsonAnyGetter" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.JsonAnyGetterCaseTest.testJsonAnyGetter" />
-        <item itemvalue="JUnit.JsonValueCaseTest" />
         <item itemvalue="JUnit.JsonValueCaseTest.testJsonValue" />
-        <item itemvalue="JUnit.JsonRawValueCaseTest" />
         <item itemvalue="JUnit.JsonRawValueCaseTest.testJsonRawValue" />
+        <item itemvalue="JUnit.JsonRawValueCaseTest" />
+        <item itemvalue="JUnit.JsonPropertyOrderCaseTest.testJsonPropertyOrder" />
+        <item itemvalue="JUnit.JsonGetterCaseTest" />
       </list>
     </recent_temporary>
   </component>
@@ -396,24 +403,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JsonPropertyOrderCaseTest_testJsonPropertyOrder - 2018.05.13 at 16h 15m 06s.xml">
-      <configuration name="JsonPropertyOrderCaseTest.testJsonPropertyOrder" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JsonPropertyOrderCaseTest_testJsonPropertyOrder - 2018.05.13 at 16h 15m 48s.xml">
-      <configuration name="JsonPropertyOrderCaseTest.testJsonPropertyOrder" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JsonRawValueCaseTest_testJsonRawValue - 2018.05.13 at 16h 23m 49s.xml">
-      <configuration name="JsonRawValueCaseTest.testJsonRawValue" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JsonRawValueCaseTest_testJsonRawValue - 2018.05.13 at 16h 24m 48s.xml">
-      <configuration name="JsonRawValueCaseTest.testJsonRawValue" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JsonRawValueCaseTest - 2018.05.13 at 16h 25m 53s.xml">
-      <configuration name="JsonRawValueCaseTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JsonValueCaseTest_testJsonValue - 2018.05.13 at 16h 34m 51s.xml">
-      <configuration name="JsonValueCaseTest.testJsonValue" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="JsonValueCaseTest_testJsonValue - 2018.05.13 at 16h 35m 22s.xml">
       <configuration name="JsonValueCaseTest.testJsonValue" configurationId="JUnit" />
     </history-entry>
@@ -426,6 +415,24 @@
     <history-entry file="JsonAnyGetterCaseTest_testJsonAnyGetter - 2018.05.13 at 16h 44m 32s.xml">
       <configuration name="JsonAnyGetterCaseTest.testJsonAnyGetter" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="JsonGetterCaseTest - 2018.05.13 at 20h 40m 47s.xml">
+      <configuration name="JsonGetterCaseTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JsonPropertyOrderCaseTest_testJsonPropertyOrder - 2018.05.13 at 20h 44m 43s.xml">
+      <configuration name="JsonPropertyOrderCaseTest.testJsonPropertyOrder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JsonRawValueCaseTest - 2018.05.13 at 20h 54m 30s.xml">
+      <configuration name="JsonRawValueCaseTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JsonRawValueCaseTest_testJsonRawValue - 2018.05.13 at 20h 55m 09s.xml">
+      <configuration name="JsonRawValueCaseTest.testJsonRawValue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JsonRawValueCaseTest_testJsonRawValue - 2018.05.13 at 20h 55m 46s.xml">
+      <configuration name="JsonRawValueCaseTest.testJsonRawValue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JsonValueCaseTest_testJsonValue - 2018.05.13 at 20h 59m 31s.xml">
+      <configuration name="JsonValueCaseTest.testJsonValue" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -433,17 +440,18 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32908705" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25477707" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25477707" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.171875" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14010416" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -456,7 +464,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32908705" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -589,93 +596,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JsonGetterCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#179#180#0" expanded="true" />
-            <element signature="e#204#205#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#134#135#0" expanded="true" />
-            <element signature="e#160#161#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/JsonGetterCaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JsonPropertyOrderCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/JsonPropertyOrderCaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JsonRawValueCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/JsonRawValueCaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JsonValueCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/JsonValueCaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/JsonAnyGetterCaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -693,11 +613,100 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JsonGetterCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/JsonGetterCaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JsonPropertyOrderCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/JsonPropertyOrderCaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="85" lean-forward="true" selection-start-line="17" selection-start-column="85" selection-end-line="17" selection-end-column="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JsonRawValueCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/JsonRawValueCaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="51" lean-forward="true" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JsonValueCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/JsonValueCaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="77" lean-forward="true" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="756">
-            <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+          <first_editor relative-caret-position="588">
+            <caret line="235" column="8" selection-start-line="235" selection-start-column="8" selection-end-line="235" selection-end-column="8" />
           </first_editor>
           <second_editor />
         </state>

@@ -3,7 +3,6 @@ import com.fasterxml.jackson.annotation.JsonValue;
 import java.util.UUID;
 
 public class JsonValueCase {
-
     private UUID id;
     private  String name;
 
@@ -23,5 +22,4 @@ public class JsonValueCase {
     public void setName(String name) {
         this.name = name;
     }
-
 }

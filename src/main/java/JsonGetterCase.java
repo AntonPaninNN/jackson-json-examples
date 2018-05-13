@@ -3,7 +3,6 @@ import com.fasterxml.jackson.annotation.JsonGetter;
 import java.util.UUID;
 
 public class JsonGetterCase {
-
     private UUID id;
     private String name;
 
