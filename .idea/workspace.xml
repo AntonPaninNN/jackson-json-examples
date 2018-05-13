@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32247d33-6a39-4c2a-a6d4-57250fb31fd8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JsonGetterCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JsonGetterCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JsonPropertyOrderCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JsonPropertyOrderCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JsonRawValueCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JsonRawValueCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JsonValueCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JsonValueCase.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -100,37 +95,31 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="588">
-                <caret line="235" column="8" selection-start-line="235" selection-start-column="8" selection-end-line="235" selection-end-column="8" />
+              <first_editor relative-caret-position="609">
+                <caret line="274" column="1" selection-start-line="274" selection-start-column="1" selection-end-line="274" selection-end-column="1" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JsonGetterCase.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/JsonGetterCase.java">
+      <file leaf-file-name="JsonRootNameCase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JsonRootNameCase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+            <state relative-caret-position="189">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#179#180#0" expanded="true" />
-                <element signature="e#204#205#0" expanded="true" />
-                <element signature="e#238#239#0" expanded="true" />
-                <element signature="e#266#267#0" expanded="true" />
-                <element signature="e#306#307#0" expanded="true" />
-                <element signature="e#338#339#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JsonGetterCaseTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/JsonGetterCaseTest.java">
+      <file leaf-file-name="JsonRootNameCaseTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/JsonRootNameCaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            <state relative-caret-position="504">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -164,6 +153,8 @@
         <option value="$PROJECT_DIR$/src/main/java/JsonRawValueCase.java" />
         <option value="$PROJECT_DIR$/src/test/java/JsonRawValueCaseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/JsonValueCase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JsonRootNameCase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/JsonRootNameCaseTest.java" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -245,26 +236,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JsonValueCaseTest.testJsonValue">
+  <component name="RunManager" selected="JUnit.JsonRootNameCaseTest.testJsonRootName">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="JsonGetterCaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jackson.json.scaffold" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="JsonGetterCaseTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="JsonPropertyOrderCaseTest.testJsonPropertyOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jackson.json.scaffold" />
@@ -307,6 +281,23 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="JsonRawValueCaseTest" />
       <option name="METHOD_NAME" value="testJsonRawValue" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="JsonRootNameCaseTest.testJsonRootName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jackson.json.scaffold" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JsonRootNameCaseTest" />
+      <option name="METHOD_NAME" value="testJsonRootName" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -373,19 +364,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.JsonGetterCaseTest" />
       <item itemvalue="JUnit.JsonPropertyOrderCaseTest.testJsonPropertyOrder" />
       <item itemvalue="JUnit.JsonRawValueCaseTest" />
       <item itemvalue="JUnit.JsonRawValueCaseTest.testJsonRawValue" />
       <item itemvalue="JUnit.JsonValueCaseTest.testJsonValue" />
+      <item itemvalue="JUnit.JsonRootNameCaseTest.testJsonRootName" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JsonRootNameCaseTest.testJsonRootName" />
         <item itemvalue="JUnit.JsonValueCaseTest.testJsonValue" />
         <item itemvalue="JUnit.JsonRawValueCaseTest.testJsonRawValue" />
         <item itemvalue="JUnit.JsonRawValueCaseTest" />
         <item itemvalue="JUnit.JsonPropertyOrderCaseTest.testJsonPropertyOrder" />
-        <item itemvalue="JUnit.JsonGetterCaseTest" />
       </list>
     </recent_temporary>
   </component>
@@ -403,12 +394,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JsonValueCaseTest_testJsonValue - 2018.05.13 at 16h 35m 22s.xml">
-      <configuration name="JsonValueCaseTest.testJsonValue" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JsonValueCaseTest - 2018.05.13 at 16h 36m 05s.xml">
-      <configuration name="JsonValueCaseTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="JsonValueCaseTest - 2018.05.13 at 16h 36m 28s.xml">
       <configuration name="JsonValueCaseTest" configurationId="JUnit" />
     </history-entry>
@@ -433,6 +418,12 @@
     <history-entry file="JsonValueCaseTest_testJsonValue - 2018.05.13 at 20h 59m 31s.xml">
       <configuration name="JsonValueCaseTest.testJsonValue" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="JsonRootNameCaseTest_testJsonRootName - 2018.05.13 at 21h 08m 52s.xml">
+      <configuration name="JsonRootNameCaseTest.testJsonRootName" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JsonRootNameCaseTest_testJsonRootName - 2018.05.13 at 21h 11m 05s.xml">
+      <configuration name="JsonRootNameCaseTest.testJsonRootName" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -447,11 +438,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25477707" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25477707" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14010416" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14010416" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -702,11 +693,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JsonRootNameCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/JsonRootNameCaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="588">
-            <caret line="235" column="8" selection-start-line="235" selection-start-column="8" selection-end-line="235" selection-end-column="8" />
+          <first_editor relative-caret-position="609">
+            <caret line="274" column="1" selection-start-line="274" selection-start-column="1" selection-end-line="274" selection-end-column="1" />
           </first_editor>
           <second_editor />
         </state>

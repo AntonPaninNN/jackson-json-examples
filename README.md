@@ -235,3 +235,42 @@ returns just:
 ```
 "name_1"
 ```
+
+### 6. @JsonRootName annotation
+Allows to specify some root json name. Also, need to apply mapper.enable(SerializationFeature.WRAP_ROOT_VALUE); to ObjectMapper. So, for:
+
+```
+@JsonRootName(value = "some_entity")
+public class JsonRootNameCase {
+    public UUID id;
+    public String name;
+}
+```
+
+the next test:
+
+```
+ @Test
+    public void testJsonRootName() throws JsonProcessingException {
+        JsonRootNameCase jsonRootNameCase = new JsonRootNameCase();
+        jsonRootNameCase.id = UUID.randomUUID();
+        jsonRootNameCase.name = "name_1";
+
+        ObjectMapper mapper = new ObjectMapper();
+        mapper.enable(SerializationFeature.WRAP_ROOT_VALUE);
+        String result = mapper.writeValueAsString(jsonRootNameCase);
+        System.out.println(result);
+        assertThat(result, containsString("name_1"));
+    }
+```
+
+shows:
+
+```
+{
+   "some_entity": {
+      "id": "573ca005-3ab2-43d3-8505-1c3666dc7e69",
+      "name": "name_1"
+   }
+}
+```
