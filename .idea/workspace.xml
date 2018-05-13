@@ -12,15 +12,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="JsonAnyGetterCaseTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/JsonAnyGetterCaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -64,11 +55,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JsonPropertyOrderCaseTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="JsonPropertyOrderCaseTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/JsonPropertyOrderCaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="399">
               <caret line="19" column="53" lean-forward="true" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JsonRawValueCase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JsonRawValueCase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JsonRawValueCaseTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/JsonRawValueCaseTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -95,11 +110,6 @@
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
@@ -141,6 +151,8 @@
         <option value="$PROJECT_DIR$/src/main/java/JsonGetterCase.java" />
         <option value="$PROJECT_DIR$/src/main/java/JsonPropertyOrderCase.java" />
         <option value="$PROJECT_DIR$/src/test/java/JsonPropertyOrderCaseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JsonRawValueCase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/JsonRawValueCaseTest.java" />
       </list>
     </option>
   </component>
@@ -220,7 +232,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JsonPropertyOrderCaseTest.testJsonPropertyOrder">
+  <component name="RunManager" selected="JUnit.JsonRawValueCaseTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -275,6 +287,40 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="JsonRawValueCaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jackson.json.scaffold" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JsonRawValueCaseTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="JsonRawValueCaseTest.testJsonRawValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jackson.json.scaffold" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JsonRawValueCaseTest" />
+      <option name="METHOD_NAME" value="testJsonRawValue" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -317,9 +363,13 @@
       <item itemvalue="JUnit.JsonAnyGetterCaseTest.testJsonAnyGetter" />
       <item itemvalue="JUnit.JsonGetterCaseTest.testJsonGetter" />
       <item itemvalue="JUnit.JsonPropertyOrderCaseTest.testJsonPropertyOrder" />
+      <item itemvalue="JUnit.JsonRawValueCaseTest.testJsonRawValue" />
+      <item itemvalue="JUnit.JsonRawValueCaseTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JsonRawValueCaseTest" />
+        <item itemvalue="JUnit.JsonRawValueCaseTest.testJsonRawValue" />
         <item itemvalue="JUnit.JsonPropertyOrderCaseTest.testJsonPropertyOrder" />
         <item itemvalue="JUnit.JsonGetterCaseTest.testJsonGetter" />
         <item itemvalue="JUnit.JsonAnyGetterCaseTest.testJsonAnyGetter" />
@@ -363,6 +413,12 @@
     </history-entry>
     <history-entry file="JsonPropertyOrderCaseTest_testJsonPropertyOrder - 2018.05.13 at 16h 15m 48s.xml">
       <configuration name="JsonPropertyOrderCaseTest.testJsonPropertyOrder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JsonRawValueCaseTest_testJsonRawValue - 2018.05.13 at 16h 23m 49s.xml">
+      <configuration name="JsonRawValueCaseTest.testJsonRawValue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JsonRawValueCaseTest_testJsonRawValue - 2018.05.13 at 16h 24m 48s.xml">
+      <configuration name="JsonRawValueCaseTest.testJsonRawValue" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -490,6 +546,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="19" column="53" lean-forward="true" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JsonRawValueCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/JsonRawValueCaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
