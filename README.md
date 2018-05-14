@@ -274,3 +274,55 @@ shows:
    }
 }
 ```
+
+### 7. @JsonSerialize annotation
+Allows to specify some custom preprocessor for serialized data:
+
+```
+public class JsonSerializeCase {
+    public UUID id;
+
+    @JsonSerialize(using = CustomStringSerializer.class)
+    public String name;
+}
+```
+
+where CustomStringSerializer - a class with custom data serializer:
+
+```
+public class CustomStringSerializer extends StdSerializer<String> {
+    protected CustomStringSerializer(Class<String> t) {
+        super(t);
+    }
+
+    public CustomStringSerializer() { this(null); }
+
+    public void serialize(String s, JsonGenerator jsonGenerator, SerializerProvider serializerProvider) throws IOException {
+        jsonGenerator.writeString(s.toUpperCase());
+    }
+}
+```
+
+And the test is:
+
+```
+@Test
+    public void testJsonSerialize() throws JsonProcessingException {
+        JsonSerializeCase jsonSerializeCase = new JsonSerializeCase();
+        jsonSerializeCase.id = UUID.randomUUID();
+        jsonSerializeCase.name = "name_1";
+
+        String result = new ObjectMapper().writeValueAsString(jsonSerializeCase);
+        System.out.println(result);
+        assertThat(result, containsString("NAME_1"));
+    }
+```
+
+As a result the name field will be serialized in upper case:
+
+```
+{
+   "id": "eb734d42-2bc6-443e-b1b5-8c390c168649",
+   "name": "NAME_1"
+}
+```
